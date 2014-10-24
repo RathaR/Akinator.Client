@@ -1,0 +1,17 @@
+<div class="panel panel-default">
+    <div class="panel-heading">Ви загадали: {{result.book}} ?</div>
+    <div class="panel-body">
+        <p>
+            {{result.description}}
+
+        </p>
+        <form role="form">
+            <div class="form-group ">
+                <button type="button" class="btn btn-default" ng-click="makeAnswer(4)">Так</button>
+                <button type="button" class="btn btn-default" ng-click="makeAnswer(5)">Ні</button>
+            </div>
+        </form>
+    </div>
+
+</div>
+
